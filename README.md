@@ -1,6 +1,6 @@
 # Multi-Agent 智能餐食推荐平台
 
-**Multi-Agent 智能餐食推荐平台** 是一个基于 Spring Boot + DeepSeek 的多 Agent 智能饮食推荐系统。平台采用 Orchestrator 编排模式，协调 IntentAgent、ClarifyAgent、RecommendResponseAgent、EvaluationJudgeAgent 四个 LLM Agent，结合 Java 规则引擎实现双层校验（LLM 语义理解 + 规则确定性决策），通过意图识别 → 槽位澄清 → 餐食检索重排 → 推荐生成四步流水线，为用户提供个性化餐食推荐。
+**Multi-Agent 智能餐食推荐平台**，面向用户日常就餐选择困难的决策场景，打造了一款结合用户实时心情、用餐场景、健康诉求等多维动态信息的智能饮食推荐 Agent。通过编排多 Agent 协作，实现意图识别 → 槽位澄清 → 标签检索与规则重排 → LLM 推荐理由生成的完整对话式推荐链路，并设计 Trace 全链路监控与离线评估体系。
 
 ## 技术栈
 
