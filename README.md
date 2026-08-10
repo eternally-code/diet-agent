@@ -1,4 +1,4 @@
-# diet-agent — 饮食推荐助手
+# Multi-Agent 智能餐食推荐平台
 
 基于 Spring Boot + DeepSeek 多 Agent 架构的智能饮食推荐系统。用户用自然语言描述"想吃什么"，系统通过意图识别、槽位澄清、餐食检索重排、LLM 推荐生成四步流水线返回个性化推荐。
 
